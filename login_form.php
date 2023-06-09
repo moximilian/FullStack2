@@ -21,10 +21,11 @@
             <input type="password" name="password" id="password"  class = 'text-input'required>
         </p>
         <p>
-            <button type="submit" id="login-button" class = 'btn' >Войти</button>
+            <button type="submit" id="login-button" class = 'btn' >Войти</button><br>
+
         </p>
     </form>
-    
+    <button class="btn_2" ><a href="register_form.php">Нет аккаунта?</a></button>
     <div id="error-message"></div>
 
     <div id="user-info"></div>

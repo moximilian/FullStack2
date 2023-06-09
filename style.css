@@ -65,8 +65,29 @@ label {
     font-weight: 600;
     font-size: 18px;
     border: 1px solid rgba(90, 128, 178, 0.815);
+    margin-bottom:15px;
 
 }
+.btn_2 {
+    width: 230px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 12px;
+    padding-right: 17px;
+    border-radius: 12px;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid rgba(90, 128, 178, 0.815);
+    
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 
 .btn:hover {
     background-color: rgb(129, 167, 236);
