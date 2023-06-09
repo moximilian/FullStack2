@@ -30,7 +30,7 @@
         </p>
         <p>
             <label for="photo">Фотография:</label>
-            <input type="file" name="photo" id="photo" />
+            <input type="file" name="photo" id="photo" required/>
         </p>
         <p>
             <button type="submit" id="register-button" class='btn'>Зарегистрироваться</button>
