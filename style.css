@@ -92,6 +92,9 @@ label {
 .btn:hover {
     background-color: rgb(129, 167, 236);
 }
+.btn_2:hover {
+    background-color: rgb(129, 167, 236);
+}
 
 .padding_2 {
     padding-right: 25px;
