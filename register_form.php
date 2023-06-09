@@ -36,7 +36,7 @@
             <button type="submit" id="register-button" class='btn'>Зарегистрироваться</button>
         </p>
     </form>
-
+    <button class="btn_2" ><a href="login_form.php">Есть аккаунт?</a></button>
     <div id="error-message"></div>
 
 </body>
