@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: Verdana;
+    background-color: aqua;
+    justify-content: center;
+
+
+}
+
+.header {
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    justify-content: center;
+    background-color: cornflowerblue;
+    padding-top: 32px;
+    padding-bottom: 42px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.padding {
+    padding-right: 13px;
+}
+
+label {
+    color: cadetblue;
+}
+
+.text-input {
+    color: rgb(77, 77, 77);
+    font-family: Verdana;
+
+    width: 250px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(90, 128, 178, 0.815);
+}
+
+.text-input:hover {
+    border: 1px solid rgb(55, 201, 108);
+}
+
+.btn {
+    width: 230px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 12px;
+    padding-right: 17px;
+    border-radius: 12px;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid rgba(90, 128, 178, 0.815);
+
+}
+
+.btn:hover {
+    background-color: rgb(129, 167, 236);
+}
+
+.padding_2 {
+    padding-right: 25px;
+}
+
+.padding_3 {
+    padding-right: 55px;
+}
+
+input::file-selector-button {
+    font-family: Verdana;
+    width: 200px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: rgb(100, 189, 237);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid rgba(90, 128, 178, 0.815);
+}
+
+input::file-selector-button:hover {
+    background-color: rgb(135, 198, 232);
+}
+
+input[type='file'] {
+    font-size: 0;
+}
+
+::file-selector-button {
+    font-size: initial;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+    border-radius: 15px;
+    border-color: cornflowerblue;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 16px;
+
+}
+
+#message {
+    margin-top: 28px;
+    margin-bottom: 15px;
+    margin-left: 55px;
+    margin-right: 55px;
+
+    text-align: center;
+    border: 3px solid lightgreen;
+    color: lightgreen;
+    background-color: rgba(144, 238, 144, 0.103);
+    border-radius: 15px;
+    justify-content: center;
+
+}
+a{
+    color:white;
+}
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
